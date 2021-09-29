@@ -84,6 +84,11 @@ namespace TakeMeToWork
             changeWindowPositon();
         }
 
+        private void NoButton_MouseEnter(object sender, System.Windows.Input.MouseEventArgs e)
+        {
+            changeWindowPositon();
+        }
+
         private void changeWindowPositon()
         {
             Random random = new Random();
