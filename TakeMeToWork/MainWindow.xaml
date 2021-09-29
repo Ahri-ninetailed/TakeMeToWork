@@ -10,7 +10,7 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Button Name="YesButton" Content="Да!" HorizontalAlignment="Left" Height="49" Margin="40,118,0,0" VerticalAlignment="Top" Width="104" Click="Button_Click" Background="White" BorderBrush="Black" Foreground="Black" FontSize="16"/>
+        <Button Name="YesButton" Content="Да!" HorizontalAlignment="Left" Height="49" Margin="40,118,0,0" VerticalAlignment="Top" Width="104" Click="YesButton_Click" Background="White" BorderBrush="Black" Foreground="Black" FontSize="16"/>
         <Button Name="NoButton" Content="Нет" Margin="196,118,39.757,0" VerticalAlignment="Top" Click="NoButton_Click" Background="White" BorderBrush="Black" Height="49" FontSize="16" MouseEnter="NoButton_MouseEnter"/>
         <Label Content="Возьмете меня &#xD;&#xA;    на работу?" Margin="84,0,84.757,208.174" FontSize="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         <Image Margin="133,196,133.774,23.966" Source="cuteDog.jpg"/>

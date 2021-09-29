@@ -72,7 +72,7 @@ namespace TakeMeToWork
             return IntPtr.Zero;
         } //отключение перемещения */
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void YesButton_Click(object sender, RoutedEventArgs e)
         {
             closingFromYesButton = true;
             System.Windows.MessageBox.Show("+79777304842\nvadim.halyapin@yandex.ru", "Мои контакты", MessageBoxButton.OK);
